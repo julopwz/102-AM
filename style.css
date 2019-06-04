@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color:#00bfff ;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:nth-child(1){
+    color: gray;
+}
+
+nav a:hover{
+    color: orange;
+    font-size: 18.5pt;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(imagem/bebe.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    color: azure;
+}
+
+header h1{
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+section{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    width: 400px;
+    height: 100%;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 400px;
+}
+
+section div input{
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+section div input::placeholder{
+    color: lightgray;
+    font-size: 10pt;
+}
+
+section div input:focus{
+    background-color: black;
+}
+
+section div button{
+    border: none;
+    background-color: aquamarine;
+    color:black;
+    cursor: pointer;
+    border-radius: 10px;
+}
